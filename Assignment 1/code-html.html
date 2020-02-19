@@ -1,0 +1,50 @@
+<xmp>
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Unique Table</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+      <table>
+        <tr>
+          <td id="a"><img src="Mratunjya.jpg" alt="Mratunjya">BCA Sem 6 <br> Mratunjya Shnakhdhar <br> mratunjya13@gmail.com <br><span>more &darr;</span></td>
+        </tr>
+        <tr>
+          <td id="b"><img src="image" alt="Student Sem 4">BCA Sem 4 <br> Anyone <br> anyone@gmail.com <br><span>more &darr;</span></td>
+        </tr>
+        <tr>
+          <td id="c"><img src="image (1)" alt="Student Sem 2">BCA Sem 2 <br> Someone <br> someone@gmail.com <br><span>more &darr;</span></td>
+        </tr>
+      </table>
+      <script type="text/javascript">
+          var c = 1, d = 1, e = 1;
+          document.getElementById("a").onclick = function() {
+              if(c % 2 != 0)
+                  document.getElementById("a").innerHTML = "<img src='Mratunjya.jpg' alt='Mratunjya'>BCA Sem 6 <br> Mratunjya Shnakhdhar <br> mratunjya13@gmail.com <br><br> Phasellus nec elit mauris. Sed ac condimentum tellus. Phasellus aliquet dignissim auctor. In pulvinar urna dui, vitae scelerisque tellus volutpat nec. Nulla pellentesque non metus sed pretium. Vestibulum molestie rutrum dui. Nam ornare velit in magna lobortis, vel ultricies quam egestas. Fusce cursus justo eu nibh finibus dapibus. Pellentesque bibendum fringilla ligula facilisis lobortis. Praesent vitae congue metus. Nunc tempus eget nibh ut lobortis. Praesent leo nunc, fringilla id accumsan vel, imperdiet ac ante. Phasellus justo justo, posuere vitae nunc eu, facilisis efficitur turpis. <span>less &uarr;</span>";
+              else
+                  document.getElementById("a").innerHTML = "<img src='Mratunjya.jpg' alt='Mratunjya'>BCA Sem 6 <br> Mratunjya Shnakhdhar <br> mratunjya13@gmail.com <br><span>more &darr;</span>";
+              c = c + 1;
+          }
+
+          document.getElementById("b").onclick = function() {
+              if(d % 2 != 0)
+                  document.getElementById("b").innerHTML = "<img src='image' alt='Student Sem 4'>BCA Sem 4 <br> Anyone <br> anyone@gmail.com <br><br> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span>less &uarr;</span>";
+              else
+                  document.getElementById("b").innerHTML = "<img src='image' alt='Student Sem 4'>BCA Sem 4 <br> Anyone <br> anyone@gmail.com <br><span>more &darr;</span>";
+              d = d + 1;
+          }
+
+          document.getElementById("c").onclick = function() {
+              if(e % 2 != 0)
+                  document.getElementById("c").innerHTML = "<img src='image (1)' alt='Student Sem 2'>BCA Sem 2 <br> Someone <br> someone@gmail.com <br><br> Stop licking my hand, you horse's ass. No, no, it's pronounced a-nal-ra-pist. It wasn't really the pronunciation that bothered me. So maybe you could start jete-ing, and stop je-terrorizing me! How am I supposed to find someone willing to go into that musty old claptrap? Or it could be your colon. I'd want to get in there and find some answers. Sure, let the little fruit do it. HUZZAH! ♪♪ It's The Final Countdown ♪♪ <span>less &uarr;</span>";
+              else
+                  document.getElementById("c").innerHTML = "<img src='image (1)' alt='Student Sem 2'>BCA Sem 2 <br> Someone <br> someone@gmail.com <br><span>more &darr;</span>";
+              e = e + 1;
+          }
+      </script>
+    </body>
+  </html>
+</xmp>
